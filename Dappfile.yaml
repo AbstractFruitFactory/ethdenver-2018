@@ -10,7 +10,7 @@ environments:
             - name: USER1
               blockchain: ethereum
               network: local
-              value: "0x620cbab1f950e38a964d02ddcf85ecfcbb9f468f"
+              value: "0xAF1A868ADf8369aAc8737A669C0DF47BE117fadF"
         constants:
             - name: ENDPOINT
               value: http://localhost:8545

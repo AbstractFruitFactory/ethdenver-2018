@@ -4,13 +4,24 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/style.css">
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/web3.min.js"></script>
     </head>
     <body>
         Uport Test app
 
 
+        <div id="createAccount" style="display:none">
+            <form>
+                name: <input class="userName" type="text">    
+                <input id="btnCreateAccount" type="button" name="Create">
+            </form>
+        </div>
+        <div id="showAccount" style="display:none">
+            <span class="userName"></span>
+        </div>
+
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/ethjs.min.js"></script> 
+        <script type="text/javascript" src="./js/bn.js"></script>
         <script type="text/javascript" src="js/contracts.js"></script>
         <script type="text/javascript" src="js/dapp.js"></script>
 

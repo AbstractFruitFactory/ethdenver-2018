@@ -2,12 +2,12 @@ pragma solidity ^0.4.17;
 
 contract EthDenver {
 
-    mapping(bytes32 => Contact) accounts;
+    mapping(string => Contact) accounts;
 
     struct Contact {
-        string name;
-        mapping(bytes32 => Contact) contacts;
-        bytes32[] contactsArray;
+        bytes32 name;
+        mapping(string => Contact) contacts;
+        string[] contactsArray;
 
         //The user accounts data 
         mapping(bytes32 => MetaData) metaDatas;
@@ -33,12 +33,19 @@ contract EthDenver {
     // One idea would be to just have a Hash with booleans that tells if you have access
     // put data in another container
 
+    function createAccount(string _ownerId, bytes32 _name) public {
+        accounts[_ownerId].name = _name;
+    }
+
+    function getAccount(string _ownerId) public view returns (bytes32) {
+        return accounts[_ownerId].name;
+    }
 
     //Add a contact to the account
     //_ownerId = uportId of account-owner: TODO: make a secure solution of this
     //_contactId = uportId of the new contact
     //_name = name of new contact
-    function addContact(bytes32 _ownerId, bytes32 _contactId, string _name) public {
+    function addContact(string _ownerId, string _contactId, bytes32 _name) public {
         Contact storage contact = accounts[_ownerId].contacts[_contactId];
         contact.name = _name;
         accounts[_ownerId].contactsArray.push(_contactId);

@@ -1,49 +1,72 @@
 var web3;
+var contractInstance;
+var selectedAccount;
+var uPortId;
 var ENDPOINT = "http://localhost:8545";
 
-$(document).ready(function() {
-    var l = getNumArticles();
-    console.log("Number of articles: " + l);
-    if(l==0) {
-        $('#articles').append(
-            "<div class='aha'><h3>No articles here yet.. Try reloading in a while.</h3>"
-        );
-    }
-    for(var i=0;i<l;i++) {
-        var article = getArticle(i);
-        $('#articles').append(
-            "<div class='aha'><h3>"+article.title+"</h3>" +
-            "<a target='_blank' href='"+article.hash+"'>"+article.hash+"</a></div>"
-        );
-    }
-});
 
-function getNumArticles() {
-    web3 = new Web3(new Web3.providers.HttpProvider(ENDPOINT));
-
-    var abi = contracts['Articles'].abi;
-    var contract_address = contracts['Articles'].address;
-
-    var contract_interface = web3.eth.contract(abi);
-
-    var contract = contract_interface.at(contract_address);
-    var result;
-    result = contract.numArticles();
-    return result.c[0];
+function lackingWeb3() {
+    alert("metamask needed!")
 }
 
-function getArticle(index) {
-    web3 = new Web3(new Web3.providers.HttpProvider(ENDPOINT));
+$(document).ready(function() {
+    uPortId = "0x2osAJeco9bzxLaxphy7tKxPeiLnSsvDEvik";
 
-    var abi = contracts['Articles'].abi;
-    var contract_address = contracts['Articles'].address;
+    if (typeof window.web3 !== 'undefined') {
+        initWeb3();
+    } else {
+        lackingWeb3();
+    }
 
-    var contract_interface = web3.eth.contract(abi);
-    var contract = contract_interface.at(contract_address);
-    var result="";
-    result = contract.getArticle(index);
-    return {
-        title: result[0],
-        hash: result[1]
-    };
+    $('#btnCreateAccount').on("click", function(){
+        var name = stringToHex($(".userName").val(), 67);
+        
+        createAccount(uPortId, name);
+
+    })
+});
+
+function initWeb3() {
+    this.web3 = window.web3;
+    var eth = new Eth(web3.currentProvider);
+
+    var abi = contracts['EthDenver'].abi;
+    var contract = eth.contract(abi);
+
+    var address = contracts['EthDenver'].address;
+    contractInstance = contract.at(address);
+
+    eth.accounts().then(function(accounts) {
+        if (accounts[0] !== undefined) {
+            selectedAccount = accounts[0];
+        }
+    });
+
+    checkUserAccount(uPortId);
+
+}
+
+function checkUserAccount(uPortId){
+    contractInstance.getAccount(uPortId).then(function(result, error){
+        var user = Eth.toAscii(result[0]).replace(/\u0000/g, '');
+
+        if(user === ""){
+            $("#createAccount").show();
+        }
+        else{
+            $(".userName").html(user);
+            $("#showAccount").show();
+        }
+    })
+}
+function createAccount(uPortId, name) {
+    contractInstance.createAccount(uPortId, name, {from: selectedAccount}).then(function(){
+        console.log('user created!');
+    });
+}
+
+function stringToHex(hexString, n) {
+    hexString = Eth.fromAscii(hexString);
+    var zeroes = Array(n).join('0');
+    return hexString + zeroes.substring(0, zeroes.length - hexString.length);
 }
