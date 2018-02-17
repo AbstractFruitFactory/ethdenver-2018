@@ -5,4 +5,4 @@ www/
 src/js/contracts.js
 .Spacefile*
 /.*.cache
-/deploy/.*
+deploy/
