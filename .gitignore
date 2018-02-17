@@ -1,2 +1,7 @@
-./build
-./deploy
+build/
+deploy/
+www/
+contracts/*.abi
+contracts/*.ts
+contracts/*.bin
+src/js/contracts.js
