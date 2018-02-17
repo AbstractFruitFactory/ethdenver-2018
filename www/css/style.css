@@ -1,0 +1,17 @@
+.aha {
+    margin: 10px;
+    display: block;
+    background-color: #111;
+}
+.aha h3 {
+    text-align: center;
+    margin: 10px;
+    color: red;
+    font-size: 33px;
+
+}
+.aha a {
+    margin: 10px;
+    font-size: 23px;
+    color: #fef0f0;
+}

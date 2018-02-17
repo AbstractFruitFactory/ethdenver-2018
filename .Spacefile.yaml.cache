@@ -1,0 +1,566 @@
+2.4
+/home/devkit/projects/ETHDenver2018/Spacefile.yaml /root/.space/space_modules/gitlab.com/web3-sh/devkit/Spacefile.yaml /root/.space/space_modules/gitlab.com/space-sh/docker/Spacefile.yaml /root/.space/space_modules/gitlab.com/space-sh/os/Spacefile.yaml /root/.space/space_modules/gitlab.com/space-sh/file/Spacefile.yaml /root/.space/space_modules/gitlab.com/space-sh/string/Spacefile.yaml /root/.space/space_modules/gitlab.com/space-sh/string:1.2.0/Spacefile.yaml /root/.space/space_modules/gitlab.com/space-sh/network/Spacefile.yaml 
+ed2dea4876f0a6ff41cbbbe685af90d44247468f8e59ec904779196703557ed7  -
+ 
+/ 0;/_env/ 0;/_env/0/ 0;/_env/0/projectshomedefault/ 1;/_env/1/ 0;/_env/1/project/ 1;/_env/2/ 0;/_env/2/image/ 1;/_env/3/ 0;/_env/3/image_version/ 1;/_env/4/ 0;/_env/4/container/ 1;/_env/5/ 0;/_env/5/projectshomedefault/ 1;/_env/6/ 0;/_env/6/MODULEDIR/ 1;/_source/ 0;/_source/0/ 1;/_source/1/ 1;/_source/2/ 1;/_source/3/ 1;/_source/4/ 1;/_source/5/ 1;/_source/6/ 1;/_source/7/ 1;/_source/8/ 1;/_source/9/ 1;/_source/10/ 1;/_source/11/ 1;/app/ 0;/app/make/ 0;/app/make/_env/ 0;/app/make/_env/0/ 0;/app/make/_env/0/RUN/ 1;/app/make/_info/ 0;/app/make/_info/title/ 1;/app/npm_install/ 0;/app/npm_install/_env/ 0;/app/npm_install/_env/0/ 0;/app/npm_install/_env/0/RUN/ 1;/app/npm_install/_info/ 0;/app/npm_install/_info/title/ 1;/contracts/ 0;/contracts/build/ 0;/contracts/build/_env/ 0;/contracts/build/_env/0/ 0;/contracts/build/_env/0/container/ 1;/contracts/build/_env/1/ 0;/contracts/build/_env/1/projectshome/ 1;/contracts/build/_env/2/ 0;/contracts/build/_env/2/projectshome/ 0;/contracts/build/_env/2/projectshome/title/ 1;/contracts/build/_env/2/projectshome/value/ 1;/contracts/build/_env/3/ 0;/contracts/build/_env/3/ipc/ 1;/contracts/build/_env/4/ 0;/contracts/build/_env/4/project/ 0;/contracts/build/_env/4/project/title/ 1;/contracts/build/_env/5/ 0;/contracts/build/_env/5/env/ 0;/contracts/build/_env/5/env/desc/ 1;/contracts/build/_env/5/env/title/ 1;/contracts/build/_env/5/env/value/ 1;/contracts/build/_env/6/ 0;/contracts/build/_env/6/rebuild/ 0;/contracts/build/_env/6/rebuild/value/ 1;/contracts/build/_env/6/rebuild/values/ 0;/contracts/build/_env/6/rebuild/values/0/ 1;/contracts/build/_env/6/rebuild/values/1/ 1;/contracts/build/_env/7/ 0;/contracts/build/_env/7/SPACE_WRAP/ 1;/contracts/build/_env/8/ 0;/contracts/build/_env/8/DOCKERCONTAINER/ 1;/contracts/build/_env/9/ 0;/contracts/build/_env/9/DOCKERFLAGS/ 1;/contracts/build/_env/10/ 0;/contracts/build/_env/10/DOCKERCMD/ 1;/contracts/build/_env/11/ 0;/contracts/build/_env/11/RUN/ 1;/contracts/build/_info/ 0;/contracts/build/_info/desc/ 1;/contracts/build/_info/title/ 1;/contracts/compile/ 0;/contracts/compile/_env/ 0;/contracts/compile/_env/0/ 0;/contracts/compile/_env/0/container/ 1;/contracts/compile/_env/1/ 0;/contracts/compile/_env/1/projectshome/ 1;/contracts/compile/_env/2/ 0;/contracts/compile/_env/2/projectshome/ 0;/contracts/compile/_env/2/projectshome/title/ 1;/contracts/compile/_env/2/projectshome/value/ 1;/contracts/compile/_env/3/ 0;/contracts/compile/_env/3/project/ 0;/contracts/compile/_env/3/project/title/ 1;/contracts/compile/_env/4/ 0;/contracts/compile/_env/4/optimization/ 0;/contracts/compile/_env/4/optimization/value/ 1;/contracts/compile/_env/4/optimization/values/ 0;/contracts/compile/_env/4/optimization/values/0/ 1;/contracts/compile/_env/4/optimization/values/1/ 1;/contracts/compile/_env/5/ 0;/contracts/compile/_env/5/recompile/ 0;/contracts/compile/_env/5/recompile/value/ 1;/contracts/compile/_env/5/recompile/values/ 0;/contracts/compile/_env/5/recompile/values/0/ 1;/contracts/compile/_env/5/recompile/values/1/ 1;/contracts/compile/_env/6/ 0;/contracts/compile/_env/6/SPACE_WRAP/ 1;/contracts/compile/_env/7/ 0;/contracts/compile/_env/7/DOCKERCONTAINER/ 1;/contracts/compile/_env/8/ 0;/contracts/compile/_env/8/DOCKERFLAGS/ 1;/contracts/compile/_env/9/ 0;/contracts/compile/_env/9/DOCKERCMD/ 1;/contracts/compile/_env/10/ 0;/contracts/compile/_env/10/RUN/ 1;/contracts/compile/_info/ 0;/contracts/compile/_info/desc/ 1;/contracts/compile/_info/title/ 1;/contracts/info/ 0;/contracts/info/_env/ 0;/contracts/info/_env/0/ 0;/contracts/info/_env/0/container/ 1;/contracts/info/_env/1/ 0;/contracts/info/_env/1/ipc/ 1;/contracts/info/_env/2/ 0;/contracts/info/_env/2/projectshome/ 1;/contracts/info/_env/3/ 0;/contracts/info/_env/3/projectshome/ 0;/contracts/info/_env/3/projectshome/title/ 1;/contracts/info/_env/3/projectshome/value/ 1;/contracts/info/_env/4/ 0;/contracts/info/_env/4/project/ 0;/contracts/info/_env/4/project/title/ 1;/contracts/info/_env/5/ 0;/contracts/info/_env/5/env/ 0;/contracts/info/_env/5/env/desc/ 1;/contracts/info/_env/5/env/title/ 1;/contracts/info/_env/5/env/value/ 1;/contracts/info/_env/6/ 0;/contracts/info/_env/6/SPACE_WRAP/ 1;/contracts/info/_env/7/ 0;/contracts/info/_env/7/DOCKERCONTAINER/ 1;/contracts/info/_env/8/ 0;/contracts/info/_env/8/DOCKERFLAGS/ 1;/contracts/info/_env/9/ 0;/contracts/info/_env/9/DOCKERCMD/ 1;/contracts/info/_env/10/ 0;/contracts/info/_env/10/RUN/ 1;/contracts/info/_info/ 0;/contracts/info/_info/desc/ 1;/contracts/info/_info/title/ 1;/contracts/js/ 0;/contracts/js/_env/ 0;/contracts/js/_env/0/ 0;/contracts/js/_env/0/container/ 1;/contracts/js/_env/1/ 0;/contracts/js/_env/1/projectshome/ 1;/contracts/js/_env/2/ 0;/contracts/js/_env/2/projectshome/ 0;/contracts/js/_env/2/projectshome/title/ 1;/contracts/js/_env/2/projectshome/value/ 1;/contracts/js/_env/3/ 0;/contracts/js/_env/3/project/ 0;/contracts/js/_env/3/project/title/ 1;/contracts/js/_env/4/ 0;/contracts/js/_env/4/env/ 0;/contracts/js/_env/4/env/desc/ 1;/contracts/js/_env/4/env/title/ 1;/contracts/js/_env/4/env/value/ 1;/contracts/js/_env/5/ 0;/contracts/js/_env/5/SPACE_WRAP/ 1;/contracts/js/_env/6/ 0;/contracts/js/_env/6/DOCKERCONTAINER/ 1;/contracts/js/_env/7/ 0;/contracts/js/_env/7/DOCKERFLAGS/ 1;/contracts/js/_env/8/ 0;/contracts/js/_env/8/DOCKERCMD/ 1;/contracts/js/_env/9/ 0;/contracts/js/_env/9/RUN/ 1;/contracts/js/_info/ 0;/contracts/js/_info/desc/ 1;/contracts/js/_info/title/ 1;/contracts/make/ 0;/contracts/make/_env/ 0;/contracts/make/_env/0/ 0;/contracts/make/_env/0/container/ 1;/contracts/make/_env/1/ 0;/contracts/make/_env/1/projectshome/ 1;/contracts/make/_env/2/ 0;/contracts/make/_env/2/projectshome/ 0;/contracts/make/_env/2/projectshome/title/ 1;/contracts/make/_env/2/projectshome/value/ 1;/contracts/make/_env/3/ 0;/contracts/make/_env/3/project/ 0;/contracts/make/_env/3/project/title/ 1;/contracts/make/_env/4/ 0;/contracts/make/_env/4/optimization/ 0;/contracts/make/_env/4/optimization/value/ 1;/contracts/make/_env/4/optimization/values/ 0;/contracts/make/_env/4/optimization/values/0/ 1;/contracts/make/_env/4/optimization/values/1/ 1;/contracts/make/_env/5/ 0;/contracts/make/_env/5/recompile/ 0;/contracts/make/_env/5/recompile/value/ 1;/contracts/make/_env/5/recompile/values/ 0;/contracts/make/_env/5/recompile/values/0/ 1;/contracts/make/_env/5/recompile/values/1/ 1;/contracts/make/_env/6/ 0;/contracts/make/_env/6/ipc/ 1;/contracts/make/_env/7/ 0;/contracts/make/_env/7/env/ 0;/contracts/make/_env/7/env/desc/ 1;/contracts/make/_env/7/env/title/ 1;/contracts/make/_env/7/env/value/ 1;/contracts/make/_env/8/ 0;/contracts/make/_env/8/rebuild/ 0;/contracts/make/_env/8/rebuild/value/ 1;/contracts/make/_env/8/rebuild/values/ 0;/contracts/make/_env/8/rebuild/values/0/ 1;/contracts/make/_env/8/rebuild/values/1/ 1;/contracts/make/_env/9/ 0;/contracts/make/_env/9/SPACE_WRAP/ 1;/contracts/make/_env/10/ 0;/contracts/make/_env/10/DOCKERCONTAINER/ 1;/contracts/make/_env/11/ 0;/contracts/make/_env/11/DOCKERFLAGS/ 1;/contracts/make/_env/12/ 0;/contracts/make/_env/12/DOCKERCMD/ 1;/contracts/make/_env/13/ 0;/contracts/make/_env/13/RUN/ 1;/contracts/make/_info/ 0;/contracts/make/_info/desc/ 1;/contracts/make/_info/title/ 1;/contracts/test/ 0;/contracts/test/_env/ 0;/contracts/test/_env/0/ 0;/contracts/test/_env/0/container/ 1;/contracts/test/_env/1/ 0;/contracts/test/_env/1/projectshome/ 1;/contracts/test/_env/2/ 0;/contracts/test/_env/2/projectshome/ 0;/contracts/test/_env/2/projectshome/title/ 1;/contracts/test/_env/2/projectshome/value/ 1;/contracts/test/_env/3/ 0;/contracts/test/_env/3/project/ 0;/contracts/test/_env/3/project/title/ 1;/contracts/test/_env/4/ 0;/contracts/test/_env/4/contract/ 0;/contracts/test/_env/4/contract/title/ 1;/contracts/test/_env/5/ 0;/contracts/test/_env/5/hotreload/ 0;/contracts/test/_env/5/hotreload/value/ 1;/contracts/test/_env/5/hotreload/values/ 0;/contracts/test/_env/5/hotreload/values/0/ 1;/contracts/test/_env/5/hotreload/values/1/ 1;/contracts/test/_env/6/ 0;/contracts/test/_env/6/breakonfailure/ 0;/contracts/test/_env/6/breakonfailure/value/ 1;/contracts/test/_env/6/breakonfailure/values/ 0;/contracts/test/_env/6/breakonfailure/values/0/ 1;/contracts/test/_env/6/breakonfailure/values/1/ 1;/contracts/test/_env/7/ 0;/contracts/test/_env/7/SPACE_WRAP/ 1;/contracts/test/_env/8/ 0;/contracts/test/_env/8/DOCKERCONTAINER/ 1;/contracts/test/_env/9/ 0;/contracts/test/_env/9/DOCKERFLAGS/ 1;/contracts/test/_env/10/ 0;/contracts/test/_env/10/DOCKERCMD/ 1;/contracts/test/_env/11/ 0;/contracts/test/_env/11/RUN/ 1;/contracts/test/_info/ 0;/contracts/test/_info/desc/ 1;/contracts/test/_info/title/ 1;/devkit/ 0;/devkit/geth/ 0;/devkit/geth/account/ 0;/devkit/geth/account/_env/ 0;/devkit/geth/account/_env/0/ 0;/devkit/geth/account/_env/0/container/ 1;/devkit/geth/account/_env/1/ 0;/devkit/geth/account/_env/1/ipc/ 1;/devkit/geth/account/_env/2/ 0;/devkit/geth/account/_env/2/SPACE_WRAP/ 1;/devkit/geth/account/_env/3/ 0;/devkit/geth/account/_env/3/DOCKERCONTAINER/ 1;/devkit/geth/account/_env/4/ 0;/devkit/geth/account/_env/4/DOCKERFLAGS/ 1;/devkit/geth/account/_env/5/ 0;/devkit/geth/account/_env/5/DOCKERCMD/ 1;/devkit/geth/account/list/ 0;/devkit/geth/account/list/_env/ 0;/devkit/geth/account/list/_env/0/ 0;/devkit/geth/account/list/_env/0/RUN/ 1;/devkit/geth/account/list/_info/ 0;/devkit/geth/account/list/_info/title/ 1;/devkit/geth/account/transfer/ 0;/devkit/geth/account/transfer/_env/ 0;/devkit/geth/account/transfer/_env/0/ 0;/devkit/geth/account/transfer/_env/0/from/ 0;/devkit/geth/account/transfer/_env/0/from/desc/ 1;/devkit/geth/account/transfer/_env/0/from/title/ 1;/devkit/geth/account/transfer/_env/1/ 0;/devkit/geth/account/transfer/_env/1/to/ 0;/devkit/geth/account/transfer/_env/1/to/title/ 1;/devkit/geth/account/transfer/_env/2/ 0;/devkit/geth/account/transfer/_env/2/value/ 0;/devkit/geth/account/transfer/_env/2/value/title/ 1;/devkit/geth/account/transfer/_env/3/ 0;/devkit/geth/account/transfer/_env/3/RUN/ 1;/devkit/geth/account/transfer/_info/ 0;/devkit/geth/account/transfer/_info/desc/ 1;/devkit/geth/account/transfer/_info/title/ 1;/devkit/geth/console/ 0;/devkit/geth/console/_env/ 0;/devkit/geth/console/_env/0/ 0;/devkit/geth/console/_env/0/container/ 1;/devkit/geth/console/_env/1/ 0;/devkit/geth/console/_env/1/ipc/ 1;/devkit/geth/console/_env/2/ 0;/devkit/geth/console/_env/2/SPACE_WRAP/ 1;/devkit/geth/console/_env/3/ 0;/devkit/geth/console/_env/3/DOCKERCONTAINER/ 1;/devkit/geth/console/_env/4/ 0;/devkit/geth/console/_env/4/DOCKERFLAGS/ 1;/devkit/geth/console/_env/5/ 0;/devkit/geth/console/_env/5/DOCKERCMD/ 1;/devkit/geth/console/_env/6/ 0;/devkit/geth/console/_env/6/RUN/ 1;/devkit/geth/console/_info/ 0;/devkit/geth/console/_info/title/ 1;/devkit/run/ 0;/devkit/run/_env/ 0;/devkit/run/_env/0/ 0;/devkit/run/_env/0/image/ 1;/devkit/run/_env/1/ 0;/devkit/run/_env/1/image_version/ 1;/devkit/run/_env/2/ 0;/devkit/run/_env/2/container/ 1;/devkit/run/_env/3/ 0;/devkit/run/_env/3/projectshome/ 0;/devkit/run/_env/3/projectshome/title/ 1;/devkit/run/_env/3/projectshome/value/ 1;/devkit/run/_env/4/ 0;/devkit/run/_env/4/port/ 0;/devkit/run/_env/4/port/title/ 1;/devkit/run/_env/4/port/value/ 1;/devkit/run/_env/5/ 0;/devkit/run/_env/5/rpcport/ 0;/devkit/run/_env/5/rpcport/value/ 1;/devkit/run/_env/6/ 0;/devkit/run/_env/6/wsport/ 0;/devkit/run/_env/6/wsport/value/ 1;/devkit/run/_env/7/ 0;/devkit/run/_env/7/remixdport/ 0;/devkit/run/_env/7/remixdport/value/ 1;/devkit/run/_env/8/ 0;/devkit/run/_env/8/corsip/ 0;/devkit/run/_env/8/corsip/title/ 1;/devkit/run/_env/9/ 0;/devkit/run/_env/9/cors/ 0;/devkit/run/_env/9/cors/value/ 1;/devkit/run/_env/10/ 0;/devkit/run/_env/10/genesis/ 0;/devkit/run/_env/10/genesis/completion/ 1;/devkit/run/_env/10/genesis/title/ 1;/devkit/run/_env/11/ 0;/devkit/run/_env/11/nginx/ 0;/devkit/run/_env/11/nginx/title/ 1;/devkit/run/_env/12/ 0;/devkit/run/_env/12/apis/ 0;/devkit/run/_env/12/apis/desc/ 1;/devkit/run/_env/12/apis/title/ 1;/devkit/run/_env/12/apis/values/ 0;/devkit/run/_env/12/apis/values/0/ 1;/devkit/run/_env/13/ 0;/devkit/run/_env/13/RUN/ 1;/devkit/run/_info/ 0;/devkit/run/_info/title/ 1;/devkit/stop/ 0;/devkit/stop/_env/ 0;/devkit/stop/_env/0/ 0;/devkit/stop/_env/0/container/ 1;/devkit/stop/_env/1/ 0;/devkit/stop/_env/1/RUN/ 1;/devkit/stop/_info/ 0;/devkit/stop/_info/title/ 1
+_0x5fsource_0
+/root/.space/space_modules/gitlab.com/web3-sh/devkit/Spacefile.bash
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_1
+/root/.space/space_modules/gitlab.com/space-sh/file/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_2
+/root/.space/space_modules/gitlab.com/space-sh/docker/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_3
+/root/.space/space_modules/gitlab.com/space-sh/string:1.2.0/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_4
+/root/.space/space_modules/gitlab.com/space-sh/os/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_5
+/root/.space/space_modules/gitlab.com/space-sh/network/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_6
+/root/.space/space_modules/gitlab.com/space-sh/file/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_7
+/root/.space/space_modules/gitlab.com/space-sh/os/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_8
+/root/.space/space_modules/gitlab.com/space-sh/file/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_9
+/root/.space/space_modules/gitlab.com/space-sh/string/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_10
+/root/.space/space_modules/gitlab.com/space-sh/file/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fsource_11
+/root/.space/space_modules/gitlab.com/space-sh/string/Spacefile.sh
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fenv_0_projectshomedefault
+/home/devkit/projects/
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fenv_1_project
+ETHDenver2018
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fenv_2_image
+registry.gitlab.com/web3-sh/devkit
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fenv_3_image0x5fversion
+0.9.2
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fenv_4_container
+${container-superdevkit}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fenv_5_projectshomedefault
+${projectshomedefault:-${HOME}/superdevkit/projects}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_0x5fenv_6_MODULEDIR
+/root/.space/space_modules/gitlab.com/web3-sh/devkit
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5finfo_title
+Run Devkit container
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_0_image
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_1_image0x5fversion
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_2_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_3_projectshome_title
+The home directory of projects to mount to container
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_3_projectshome_value
+${projectshome:-$projectshomedefault}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_4_port_title
+HTTP port to expose on docker host
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_4_port_value
+${port:-80}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_5_rpcport_value
+${rpcport:-8545}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_6_wsport_value
+${wsport:-8546}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_7_remixdport_value
+${remixdport:-65520}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_8_corsip_title
+Set this to the local IP of your docker machine for CORS.
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_9_cors_value
+${cors:-${corsip:+http://${corsip}:${port}}}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_10_genesis_title
+Path to genesis file to override default
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_10_genesis_completion
+G
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_11_nginx_title
+Path to nginx directory to override default
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_12_apis_title
+The Geth API's to load
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_12_apis_values_0
+eth,personal,web3,admin,net,txpool,debug
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_12_apis_desc
+Defaults to eth, personal, web3, admin, net, txpool and debug.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_run_0x5fenv_13_RUN
+DEVKIT_RUN_CONTAINER -- "${image}:${image_version}" "${container}" "${projectshome}" "${port}" "${rpcport}" "${wsport}" "${remixdport}" "${cors}" "${genesis}" "${nginx}" "${apis}"
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_stop_0x5finfo_title
+Stop Devkit container
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_stop_0x5fenv_0_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_stop_0x5fenv_1_RUN
+DEVKIT_STOP_CONTAINER -- "${container}"
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_console_0x5finfo_title
+Open a geth console attached to the container
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_console_0x5fenv_0_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_console_0x5fenv_1_ipc
+${ipc:-/home/devkit/geth/geth.ipc}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_console_0x5fenv_2_SPACE0x5fWRAP
+${container:+DOCKER_WRAP_EXEC}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_console_0x5fenv_3_DOCKERCONTAINER
+${container}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_console_0x5fenv_4_DOCKERFLAGS
+-i
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_console_0x5fenv_5_DOCKERCMD
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_console_0x5fenv_6_RUN
+DEVKIT_CONSOLE -- "${ipc}"
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_0x5fenv_0_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_0x5fenv_1_ipc
+${ipc:-/home/devkit/geth/geth.ipc}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_0x5fenv_2_SPACE0x5fWRAP
+${container:+DOCKER_WRAP_EXEC}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_0x5fenv_3_DOCKERCONTAINER
+${container}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_0x5fenv_4_DOCKERFLAGS
+-i
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_0x5fenv_5_DOCKERCMD
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_transfer_0x5finfo_title
+Transfer funds from geth account to other account inside container
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_transfer_0x5finfo_desc
+The default geth node includes pre-funded accounts.
+It is possible to transfer ether from those accounts to any other
+newly created account.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_transfer_0x5fenv_0_from_title
+The from address
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_transfer_0x5fenv_0_from_desc
+This must be an already unlocked account managed by Geth.
+Typically it's one of the pre seeded accounts defined in the genesis.json file.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_transfer_0x5fenv_1_to_title
+To address: 0x123456
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_transfer_0x5fenv_2_value_title
+How much wei to transfer
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_transfer_0x5fenv_3_RUN
+DEVKIT_ACCOUNT_TRANSFER "${ipc}" "${from}" "${to}" "${value}"
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_list_0x5finfo_title
+List accounts managed by geth
+_SPACEGAL_SAYS_END_OF_FINITY_
+_devkit_geth_account_list_0x5fenv_0_RUN
+DEVKIT_ACCOUNT_LIST -- "${ipc}"
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5finfo_title
+Compile a project's smart contracts
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5finfo_desc
+Compile all (updated) contracts for a project as defined in the Dappfile.yaml.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_0_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_1_projectshome
+${projectshome:-${container:+/home/devkit/projects}}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_2_projectshome_title
+The home directory of projects
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_2_projectshome_value
+${projectshome:-$projectshomedefault}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_3_project_title
+The project name
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_4_optimization_value
+${optimization:-false}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_4_optimization_values_0
+true
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_4_optimization_values_1
+false
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_5_recompile_value
+${recompile:-false}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_5_recompile_values_0
+true
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_5_recompile_values_1
+false
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_6_SPACE0x5fWRAP
+${container:+DOCKER_WRAP_EXEC}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_7_DOCKERCONTAINER
+${container}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_8_DOCKERFLAGS
+-i
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_9_DOCKERCMD
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_compile_0x5fenv_10_RUN
+DEVKIT_COMPILE_PROJECT "${projectshome}" "${project}" "${optimization}" "${recompile}"
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5finfo_title
+Build the smart contracts to the blockchain(s) for a given environment
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5finfo_desc
+Build all smart contracts as defined in the Dappfile.yaml to the blockchain(s) network(s)
+defined by the given environment.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_0_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_1_projectshome
+${projectshome:-${container:+/home/devkit/projects}}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_2_projectshome_title
+The home directory of projects
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_2_projectshome_value
+${projectshome:-$projectshomedefault}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_3_ipc
+${ipc:-/home/devkit/geth/geth.ipc}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_4_project_title
+The project name
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_5_env_title
+The environment setup, for local, live, etc deployments
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_5_env_desc
+The environments are described in the Dappfile.yaml.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_5_env_value
+${value:-local}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_6_rebuild_value
+${rebuild:-false}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_6_rebuild_values_0
+true
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_6_rebuild_values_1
+false
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_7_SPACE0x5fWRAP
+${container:+DOCKER_WRAP_EXEC}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_8_DOCKERCONTAINER
+${container}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_9_DOCKERFLAGS
+-i
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_10_DOCKERCMD
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_build_0x5fenv_11_RUN
+DEVKIT_BUILD_PROJECT "${ipc}" "${projectshome}" "${project}" "${env}" "${rebuild}" --
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5finfo_title
+Build the JavaScript representation of the contracts for a given environment
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5finfo_desc
+Build the contracts.js according the the Dappfile.yaml
+defined by the given environment.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_0_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_1_projectshome
+${projectshome:-${container:+/home/devkit/projects}}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_2_projectshome_title
+The home directory of projects
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_2_projectshome_value
+${projectshome:-$projectshomedefault}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_3_project_title
+The project name
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_4_env_title
+The environment setup, for local, live, etc deployments
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_4_env_desc
+The environments are described in the Dappfile.yaml.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_4_env_value
+${value:-local}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_5_SPACE0x5fWRAP
+${container:+DOCKER_WRAP_EXEC}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_6_DOCKERCONTAINER
+${container}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_7_DOCKERFLAGS
+-i
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_8_DOCKERCMD
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_js_0x5fenv_9_RUN
+DEVKIT_JS_BUILD_PROJECT "${projectshome}" "${project}" "${env}" --
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5finfo_title
+Test a smart contract
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5finfo_desc
+Run tests for one or more contracts inside the container for a specific project.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_0_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_1_projectshome
+${projectshome:-${container:+/home/devkit/projects}}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_2_projectshome_title
+The home directory of projects
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_2_projectshome_value
+${projectshome:-$projectshomedefault}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_3_project_title
+The project name
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_4_contract_title
+The name or wildcard of contract(s) to test
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_5_hotreload_value
+${hotreload:-false}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_5_hotreload_values_0
+true
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_5_hotreload_values_1
+false
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_6_breakonfailure_value
+${breakonfailure:-true}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_6_breakonfailure_values_0
+true
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_6_breakonfailure_values_1
+false
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_7_SPACE0x5fWRAP
+${container:+DOCKER_WRAP_EXEC}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_8_DOCKERCONTAINER
+${container}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_9_DOCKERFLAGS
+-i
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_10_DOCKERCMD
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_test_0x5fenv_11_RUN
+DEVKIT_TEST "${projectshome}" "${project}" "${contract}" "${hotreload}" "${breakonfailure}"
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5finfo_title
+Get info on the contracts for a project
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5finfo_desc
+Show information about contracts and their deployed addresses.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_0_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_1_ipc
+${ipc:-/home/devkit/geth/geth.ipc}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_2_projectshome
+${projectshome:-${container:+/home/devkit/projects}}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_3_projectshome_title
+The home directory of projects
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_3_projectshome_value
+${projectshome:-$projectshomedefault}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_4_project_title
+The project name
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_5_env_title
+The environment setup, for local, live, etc deployments
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_5_env_desc
+The environments are described in the Dappfile.yaml.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_5_env_value
+${value:-local}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_6_SPACE0x5fWRAP
+${container:+DOCKER_WRAP_EXEC}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_7_DOCKERCONTAINER
+${container}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_8_DOCKERFLAGS
+-i
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_9_DOCKERCMD
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_info_0x5fenv_10_RUN
+DEVKIT_INFO_PROJECT "${ipc}" "${projectshome}" "${project}" "${env}" --
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5finfo_title
+Compile, build and build js for project
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5finfo_desc
+Run all three targets sequentially: /compile/, /build/ and /js/
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_0_container
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_1_projectshome
+${projectshome:-${container:+/home/devkit/projects}}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_2_projectshome_title
+The home directory of projects
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_2_projectshome_value
+${projectshome:-$projectshomedefault}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_3_project_title
+The project name
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_4_optimization_value
+${optimization:-false}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_4_optimization_values_0
+true
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_4_optimization_values_1
+false
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_5_recompile_value
+${recompile:-false}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_5_recompile_values_0
+true
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_5_recompile_values_1
+false
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_6_ipc
+${ipc:-/home/devkit/geth/geth.ipc}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_7_env_title
+The environment setup, for local, live, etc deployments
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_7_env_desc
+The environments are described in the Dappfile.yaml.
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_7_env_value
+${value:-local}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_8_rebuild_value
+${rebuild:-false}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_8_rebuild_values_0
+true
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_8_rebuild_values_1
+false
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_9_SPACE0x5fWRAP
+${container:+DOCKER_WRAP_EXEC}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_10_DOCKERCONTAINER
+${container}
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_11_DOCKERFLAGS
+-i
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_12_DOCKERCMD
+
+_SPACEGAL_SAYS_END_OF_FINITY_
+_contracts_make_0x5fenv_13_RUN
+DEVKIT_MAKE_PROJECT "${projectshome}" "${project}" "${optimization}" "${recompile}" "${ipc}" "${env}" "${rebuild}"
+_SPACEGAL_SAYS_END_OF_FINITY_
+_app_npm0x5finstall_0x5finfo_title
+Perform npm (or yarn) install.
+_SPACEGAL_SAYS_END_OF_FINITY_
+_app_npm0x5finstall_0x5fenv_0_RUN
+DAPP_NPM_INSTALL
+_SPACEGAL_SAYS_END_OF_FINITY_
+_app_make_0x5finfo_title
+Build the app
+_SPACEGAL_SAYS_END_OF_FINITY_
+_app_make_0x5fenv_0_RUN
+DAPP_BUILD
+_SPACEGAL_SAYS_END_OF_FINITY_

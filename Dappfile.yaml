@@ -1,0 +1,58 @@
+title: The Uncensorable Newsfeed
+
+environments:
+    local:
+        accounts:
+            - name: DEPLOY
+              blockchain: ethereum
+              network: local
+              value: "0x8833af1a9b1e7ddc837ed2c771078dcf3ac23daf"
+            - name: USER1
+              blockchain: ethereum
+              network: local
+              value: "0x620cbab1f950e38a964d02ddcf85ecfcbb9f468f"
+        constants:
+            - name: ENDPOINT
+              value: http://localhost:8545
+    test:
+        accounts:
+            - name: DEPLOY
+              blockchain: ethereum
+              network: ropsten
+              value: "0x8833af1a9b1e7ddc837ed2c771078dcf3ac23daf"
+            - name: USER1
+              blockchain: ethereum
+              network: ropsten
+              value: "0x620cbab1f950e38a964d02ddcf85ecfcbb9f468f"
+    main_staging:
+        accounts:
+            - name: DEPLOY
+              blockchain: ethereum
+              network: mainnet
+              value: "0x8833af1a9b1e7ddc837ed2c771078dcf3ac23daf"
+            - name: USER1
+              blockchain: ethereum
+              network: mainnet
+              value: "0x620cbab1f950e38a964d02ddcf85ecfcbb9f468f"
+    main:
+        accounts:
+            - name: DEPLOY
+              blockchain: ethereum
+              network: mainnet
+              value: "0x8833af1a9b1e7ddc837ed2c771078dcf3ac23daf"
+            - name: USER1
+              blockchain: ethereum
+              network: mainnet
+              value: "0x620cbab1f950e38a964d02ddcf85ecfcbb9f468f"
+contracts:
+    - name: Articles
+      source: contracts/Articles.sol
+      account: DEPLOY
+      args:
+        - account: "USER1"
+js:
+    contracts:
+        include:
+            - name: Articles
+              data: abi bin address account account_address
+        dest: src/js/contracts.js

@@ -1,0 +1,21 @@
+@clone: gitlab.com/web3-sh/devkit file
+@include: gitlab.com/web3-sh/devkit|/_clone/
+_env:
+    @dir: @{DIR}/
+    @dotdot: dir
+    - projectshomedefault: @{dir}
+    - project: @{DIRNAME}
+    @include: gitlab.com/web3-sh/devkit|/_env/
+
+@include: gitlab.com/web3-sh/devkit|/_project/
+app:
+    npm_install:
+        _info:
+            title: Perform npm (or yarn) install.
+        _env:
+            - RUN: DAPP_NPM_INSTALL
+    make:
+        _info:
+            title: Build the app
+        _env:
+            - RUN: DAPP_BUILD
