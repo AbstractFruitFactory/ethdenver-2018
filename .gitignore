@@ -6,3 +6,5 @@ src/js/contracts.js
 .Spacefile*
 /.*.cache
 deploy/
+.DS_Store
+/src/.DS_Store
