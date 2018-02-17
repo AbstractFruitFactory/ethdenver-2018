@@ -5,3 +5,4 @@ www/
 *.ts
 *.bin
 src/js/contracts.js
+.Spacefile*
