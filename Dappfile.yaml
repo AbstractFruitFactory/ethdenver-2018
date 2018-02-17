@@ -1,4 +1,4 @@
-title: The Uncensorable Newsfeed
+title: EthDenver Hackaton
 
 environments:
     local:
@@ -45,14 +45,12 @@ environments:
               network: mainnet
               value: "0x620cbab1f950e38a964d02ddcf85ecfcbb9f468f"
 contracts:
-    - name: Articles
-      source: contracts/Articles.sol
+    - name: EthDenver
+      source: contracts/EthDenver.sol
       account: DEPLOY
-      args:
-        - account: "USER1"
 js:
     contracts:
         include:
-            - name: Articles
+            - name: EthDenver
               data: abi bin address account account_address
         dest: src/js/contracts.js

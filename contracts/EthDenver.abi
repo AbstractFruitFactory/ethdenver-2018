@@ -1,0 +1,1 @@
+[{"constant":false,"inputs":[{"name":"_ownerId","type":"bytes32"},{"name":"_contactId","type":"bytes32"},{"name":"_name","type":"string"}],"name":"addContact","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"}]
