@@ -7,6 +7,7 @@
     "test": "tests"
   },
   "scripts": {
+    "server": "node src/js/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/alexmedkex/ethdenver-2018/issues"
   },
-  "homepage": "https://github.com/alexmedkex/ethdenver-2018#readme"
+  "homepage": "https://github.com/alexmedkex/ethdenver-2018#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "uport-connect": "^0.7.0"
+  }
 }
