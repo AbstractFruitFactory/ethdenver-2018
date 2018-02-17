@@ -1,8 +1,8 @@
-build/
-deploy/
 www/
 *.abi
 *.ts
 *.bin
 src/js/contracts.js
 .Spacefile*
+/.*.cache
+/deploy/.*
