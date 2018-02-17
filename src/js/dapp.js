@@ -1,7 +1,6 @@
 var web3;
 var contractInstance;
 var selectedAccount;
-var uPortId;
 var ENDPOINT = "http://localhost:8545";
 
 
@@ -10,20 +9,11 @@ function lackingWeb3() {
 }
 
 $(document).ready(function() {
-    uPortId = "0x2osAJeco9bzxLaxphy7tKxPeiLnSsvDEvik";
-
     if (typeof window.web3 !== 'undefined') {
         initWeb3();
     } else {
         lackingWeb3();
     }
-
-    $('#btnCreateAccount').on("click", function(){
-        var name = stringToHex($(".userName").val(), 67);
-        
-        createAccount(uPortId, name);
-
-    })
 });
 
 function initWeb3() {
@@ -41,9 +31,6 @@ function initWeb3() {
             selectedAccount = accounts[0];
         }
     });
-
-    checkUserAccount(uPortId);
-
 }
 
 function checkUserAccount(uPortId){
@@ -52,6 +39,11 @@ function checkUserAccount(uPortId){
 
         if(user === ""){
             $("#createAccount").show();
+            $('#btnCreateAccount').on("click", function(){
+                var name = stringToHex($(".userName").val(), 67);
+                
+                createAccount(uPortId, name);
+            })
         }
         else{
             $(".userName").html(user);
