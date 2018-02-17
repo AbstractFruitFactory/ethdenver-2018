@@ -20,3 +20,18 @@ const uportConnect = function () {
     console.log(credentials);
   })
 }
+
+const uportSign = function () {
+  uport.requestCredentials({
+    requested: ['name'],
+    notifications: true // We want this if we want to recieve credentials
+  })
+  .then((credentials) => {
+    if(credentials == ADDRESS) {
+      addFriend();
+    } else {
+      alert("Unauthorized");
+    }
+  })
+}
+

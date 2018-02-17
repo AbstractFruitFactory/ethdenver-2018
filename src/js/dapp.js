@@ -70,3 +70,7 @@ function stringToHex(hexString, n) {
     var zeroes = Array(n).join('0');
     return hexString + zeroes.substring(0, zeroes.length - hexString.length);
 }
+
+function addFriend() {
+    
+}
