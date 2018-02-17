@@ -1,7 +1,7 @@
 /* global Web3 globalState render */
 
 // Setup
-
+var credentials;
 const Connect = window.uportconnect.Connect;
 const SimpleSigner = window.uportconnect.SimpleSigner;
 const uport = new Connect('EthDenver2018-DecentralizedCamp', {
@@ -16,8 +16,10 @@ const uportConnect = function () {
     requested: ['name'],
     notifications: true // We want this if we want to recieve credentials
   })
-  .then((credentials) => {
-    console.log(credentials);
+  .then((result) => {
+    $("#connectUportBtn").hide();
+    credentials = result;
+    checkUserAccount(credentials.address);
   })
 }
 
