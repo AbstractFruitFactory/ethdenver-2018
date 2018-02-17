@@ -23,14 +23,14 @@ const uportConnect = function () {
   })
 }
 
-const uportSign = function () {
+const uportSign = function (id) {
   uport.requestCredentials({
     requested: ['name'],
     notifications: true // We want this if we want to recieve credentials
   })
-  .then((credentials) => {
-    if(credentials == ADDRESS) {
-      addFriend();
+  .then((result) => {
+    if(result.address == credentials.address) {
+      addFriend(id);
     } else {
       alert("Unauthorized");
     }

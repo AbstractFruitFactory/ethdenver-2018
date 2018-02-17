@@ -45,9 +45,12 @@ function checkUserAccount(uPortId){
                 createAccount(uPortId, name);
             })
         }
-        else{
+        else {
             $(".userName").html(user);
             $("#showAccount").show();
+            $("#btnAddFriend").on("click", function() {
+                uportSign($("#friendId").val());
+            });
         }
     })
 }
@@ -63,6 +66,8 @@ function stringToHex(hexString, n) {
     return hexString + zeroes.substring(0, zeroes.length - hexString.length);
 }
 
-function addFriend() {
-    
+function addFriend(id) {
+    contractInstance.addContact(credentials.address, id).then(function(result, error) {
+        console.log("Added friend successfully.");
+    });
 }

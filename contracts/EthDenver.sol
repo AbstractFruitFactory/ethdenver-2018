@@ -45,9 +45,8 @@ contract EthDenver {
     //_ownerId = uportId of account-owner: TODO: make a secure solution of this
     //_contactId = uportId of the new contact
     //_name = name of new contact
-    function addContact(string _ownerId, string _contactId, bytes32 _name) public {
-        Contact storage contact = accounts[_ownerId].contacts[_contactId];
-        contact.name = _name;
+    function addContact(string _ownerId, string _contactId) public {
+        accounts[_ownerId].contacts[_contactId];
         accounts[_ownerId].contactsArray.push(_contactId);
     }
 

@@ -9,10 +9,13 @@
         Uport Test app
 
         <button class="btn btn-sm btn-primary" id="connectUportBtn" onclick="uportConnect()">Connect uPort</button>
-
-        <button id="addFriend" onclick="addFriend()">Add Friend</button>
-
-
+        
+        <div id="addFriend" style="display:none">
+            <form>
+                name: <input id="friendId" type="text">    
+                <input id="btnAddFriend" type="button" name="Add Friend">
+            </form>
+        </div>
 
         <div id="createAccount" style="display:none">
             <form>
