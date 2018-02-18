@@ -6,17 +6,23 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        Uport Test app
 
-        <button class="btn btn-sm btn-primary" id="connectUportBtn" onclick="uportConnect()">Connect uPort</button>
+        <div>
+            <h1 id="main_title">uPort Friends Management</h1>
+        </div>
+
+        <div class="centered">
+            <button class="btn btn-sm btn-primary" id="connectUportBtn" onclick="uportConnect()">Connect uPort</button>
+        </div>
 
 
-        <div id="createAccount" style="display:none">
+        <div class="centered" id="createAccount" style="display:none">
             <form>
                 Name: <input class="userName" type="text">    
                 <input id="btnCreateAccount" type="button" name="Create">
             </form>
         </div>
+
         <div id="showAccount" style="display:none">
             <span class="userName"></span>
         </div>
