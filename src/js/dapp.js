@@ -51,14 +51,15 @@ function checkUserAccount(uPortId){
         }
     })
 }
+
 function createAccount(uPortId, name) {
     contractInstance.createAccount(uPortId, name, {from: selectedAccount}).then(function(){
         console.log('user created!');
     });
 }
 
-function stringToHex(hexString, n) {
+function stringToHex(hexString, numberOfChars) {
     hexString = Eth.fromAscii(hexString);
-    var zeroes = Array(n).join('0');
+    var zeroes = Array(numberOfChars).join('0');
     return hexString + zeroes.substring(0, zeroes.length - hexString.length);
 }
