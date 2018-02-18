@@ -45,9 +45,18 @@ function checkUserAccount(uPortId){
                 createAccount(uPortId, name);
             })
         }
-        else{
+        else {
             $(".userName").html(user);
             $("#showAccount").show();
+            $("#addFriend").show();
+            $("#listFriends").show();
+            $("#btnAddFriend").on("click", function() {
+                addFriend($("#friendId").val());
+            });
+            var friends = await contractInstance.getFriends(credentials.address, { from: selectedAccount });
+            friends.forEach(function(friend) {
+                $("#list").append("<li>" + friend + "</li>");
+            });
         }
     })
 }
@@ -62,4 +71,11 @@ function stringToHex(hexString, numberOfChars) {
     hexString = Eth.fromAscii(hexString);
     var zeroes = Array(numberOfChars).join('0');
     return hexString + zeroes.substring(0, zeroes.length - hexString.length);
+}
+
+function addFriend(id) {
+    console.log(credentials.address)
+    contractInstance.addContact(credentials.address, id, { from: selectedAccount }).then(function(result, error) {
+        console.log("Added friend successfully.");
+    });
 }
