@@ -48,6 +48,7 @@ contract EthDenver {
     //_ownerId = uportId of account-owner: TODO: make a secure solution of this
     //_contactId = uportId of the new contact
     //_name = name of new contact
+<<<<<<< HEAD
     function addContact(string _ownerId, string _contactId, string _name) public {
         Contact storage contact = accounts[_ownerId].contacts[_contactId];
         contact.name = _name;
@@ -57,6 +58,16 @@ contract EthDenver {
     // function getContacts(string _ownerId) public view returns (string) {
     //     //return accounts[_ownerId].contactsArray;
     // }
+=======
+    function addContact(string _ownerId, string _contactId) public {
+        accounts[_ownerId].contactsArray.push(_contactId);
+    }
+
+    function getFriends(string _ownerId) public view returns (string[]) {
+        return accounts[_ownerId].contactsArray;
+    }
+
+>>>>>>> 24de4d70f53add0b6f22804ce14e42b8657e8c19
 
     function addMetaData(string _ownerId, string _key, string _value) public {
         bytes32 id = keccak256(msg.sender, msg.data, now);

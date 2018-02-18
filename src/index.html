@@ -4,23 +4,50 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono:400,700" rel="stylesheet">    
     </head>
     <body>
-        Uport Test app
+        <div>
+            <h1 id="main_title">uPort Friends Management</h1>
+        </div>
 
-        <button class="btn btn-sm btn-primary" id="connectUportBtn" onclick="uportConnect()">Connect uPort</button>
+        <div class="centered">
+            <button class="btn btn-sm btn-primary" id="connectUportBtn" onclick="uportConnect()">Connect uPort</button>
+        </div>
 
-
-        <div id="createAccount" style="display:none">
+        <div id="addFriend" style="display:none" >
             <form>
+                Friend ID: <input id="friendId" type="text">    
+                <input id="btnAddFriend" type="button" name="Add Friend">
+            </form>
+        </div>
+
+        <div id="listFriends" style="display:none">
+            <ul id="list">
+                
+            </ul>   
+        </div>
+
+        <div id="showAccount" style="display:none">
+            <span class="userName"></span>
+        </div>
+
+        <div class="centered" id="createAccount" style="display:none">
+            <form>
+<<<<<<< HEAD
                 name: <input class="userName" type="text">    
                 <input id="btnCreateAccount" type="button" name="Create">
+=======
+                Friend uPortID: <input class="userName" type="text">    
+                <input id="btnCreateAccount" type="button" name="Create" value="Add Friend"> 
+>>>>>>> 24de4d70f53add0b6f22804ce14e42b8657e8c19
             </form>
         </div>
         <div id="showAccount" style="display:none">
             <span class="userName"></span>
         </div>
 
+        
         <script type="text/javascript" src="./js/jquery.min.js"></script>
         <script type="text/javascript" src="./js/ethjs.min.js"></script> 
         <script type="text/javascript" src="./js/bn.js"></script>

@@ -16,9 +16,22 @@ const uportConnect = function () {
     requested: ['name'],
     notifications: true // We want this if we want to recieve credentials
   })
-  .then((result) => {
-    $("#connectUportBtn").hide();
-    credentials = result;
-    checkUserAccount(credentials.address);
+    .then((result) => {
+      console.log(result);
+      $("#connectUportBtn").hide();
+      credentials = result;
+      checkUserAccount(credentials.address);
+    })
+}
+
+const uportSign = function (id) {
+  const cred = {
+    sub: credentials.address,
+    claim: {'name': credentials.name },
+    exp: '1300819380',
+    uriHandler: (log) => { console.log(log) }
+  }
+  uport.attestCredentials(cred).then(res => {
+    console.log("it works")
   })
 }
