@@ -46,8 +46,11 @@ contract EthDenver {
     //_contactId = uportId of the new contact
     //_name = name of new contact
     function addContact(string _ownerId, string _contactId) public {
-        accounts[_ownerId].contacts[_contactId];
         accounts[_ownerId].contactsArray.push(_contactId);
+    }
+
+    function getFriends(string _ownerId) public view returns (string[]) {
+        return accounts[_ownerId].contactsArray;
     }
 
 

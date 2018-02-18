@@ -10,11 +10,21 @@
 
         <button class="btn btn-sm btn-primary" id="connectUportBtn" onclick="uportConnect()">Connect uPort</button>
         
-        <div id="addFriend" style="display:none">
+        <div id="addFriend" style="display:none" >
             <form>
-                name: <input id="friendId" type="text">    
+                Friend ID: <input id="friendId" type="text">    
                 <input id="btnAddFriend" type="button" name="Add Friend">
             </form>
+        </div>
+
+        <div id="listFriends" style="display:none">
+            <ul id="list">
+                
+            </ul>   
+        </div>
+
+        <div id="showAccount" style="display:none">
+            <span class="userName"></span>
         </div>
 
         <div id="createAccount" style="display:none">
@@ -26,6 +36,7 @@
         <div id="showAccount" style="display:none">
             <span class="userName"></span>
         </div>
+       
         
         <script type="text/javascript" src="./js/jquery.min.js"></script>
         <script type="text/javascript" src="./js/ethjs.min.js"></script> 
