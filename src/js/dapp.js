@@ -72,7 +72,7 @@ function checkUserAccount(uPortId){
 
     uPortId = stringToHex(uPortId, 73);
 
-    contractInstance.getAccount(uPortId).then(function(result, error){
+    contractInstance.getAccount(uPortId).then(async function(result, error){
 
         if(error){
             alert(error);
